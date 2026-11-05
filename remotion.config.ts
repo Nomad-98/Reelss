@@ -4,3 +4,5 @@ Config.setVideoImageFormat('jpeg');
 Config.setCodec('h264');
 Config.setPixelFormat('yuv420p');
 Config.setOverwriteOutput(true);
+// Software WebGL: works headless on any machine and renders deterministically.
+Config.setChromiumOpenGlRenderer('swangle');
